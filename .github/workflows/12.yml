@@ -1,6 +1,7 @@
 name: 自动更新仓库
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "5 0 1 * *" # 分 时 日 月 星期
 
